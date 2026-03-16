@@ -1,18 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
+  <!-- Home Page -->
   <url>
     <loc>https://yourwebsite.netlify.app/</loc>
   </url>
 
+  <!-- About Page -->
   <url>
-    <loc>https://yourwebsite.netlify.app/terms.html</loc>
+    <loc>https://yourwebsite.netlify.app/about.html</loc>
+  </url>
+   <!-- Blog Page -->
+  <url>
+    <loc>https://yourwebsite.netlify.app/blog.html</loc>
   </url>
 
+  <!-- Terms & Conditions Page -->
+  <url>
+    <loc>https://yourwebsite.netlify.app/terms-condition.html</loc>
+  </url>
+
+  <!-- Privacy Policy Page -->
   <url>
     <loc>https://yourwebsite.netlify.app/privacy.html</loc>
   </url>
 
+  <!-- Contact Page -->
   <url>
     <loc>https://yourwebsite.netlify.app/contact.html</loc>
   </url>
