@@ -3,31 +3,31 @@
 
   <!-- Home Page -->
   <url>
-    <loc>https://yourwebsite.netlify.app/</loc>
+    <loc>https://smarttoolshubonline.netlify.app/</loc>
   </url>
 
   <!-- About Page -->
   <url>
-    <loc>https://yourwebsite.netlify.app/about.html</loc>
+    <loc>https://smarttoolshubonline.netlify.app/about</loc>
   </url>
    <!-- Blog Page -->
   <url>
-    <loc>https://yourwebsite.netlify.app/blog.html</loc>
+    <loc>https://smarttoolshubonline.netlify.app/blogl</loc>
   </url>
 
   <!-- Terms & Conditions Page -->
   <url>
-    <loc>https://yourwebsite.netlify.app/terms-condition.html</loc>
+    <loc>https://smarttoolshubonline.netlify.app/terms-condition</loc>
   </url>
 
   <!-- Privacy Policy Page -->
   <url>
-    <loc>https://yourwebsite.netlify.app/privacy.html</loc>
+    <loc>https://smarttoolshubonline.netlify.app/privacy</loc>
   </url>
 
   <!-- Contact Page -->
   <url>
-    <loc>https://yourwebsite.netlify.app/contact.html</loc>
+    <loc>https://smarttoolshubonline.netlify.app/contactl</loc>
   </url>
 
 </urlset>
