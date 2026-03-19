@@ -1,36 +1,26 @@
 <!DOCTYPE html>
 <html>
+
 <head>
+
 <title>Age Calculator</title>
-<link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet" href="../css/style.css">
+
+<script src="../js/tools.js"></script>
+
 </head>
 
 <body>
 
-<header>
 <h1>Age Calculator</h1>
-<nav><a href="index.html">Home</a></nav>
-</header>
 
-<main>
-
-<div class="card">
 <input type="date" id="dob">
-<button onclick="age()">Calculate</button>
-<p id="r"></p>
-</div>
 
-</main>
+<button onclick="ageCalculator()">Calculate Age</button>
 
-<script>
-function age(){
-let d=new Date(document.getElementById("dob").value);
-let t=new Date();
-document.getElementById("r").innerText=t.getFullYear()-d.getFullYear();
-}
-</script>
-
-<footer><p>© 2026 @ Pintu Gupta</p></footer>
+<p>Your Age: <span id="age"></span></p>
 
 </body>
+
 </html>
