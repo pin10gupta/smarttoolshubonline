@@ -1,26 +1,38 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-
 <title>Word Counter</title>
-
-<link rel="stylesheet" href="../css/style.css">
-
-<script src="../js/tools.js"></script>
-
+<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<h1>Word Counter Tool</h1>
+<header>
+<h1>Word Counter</h1>
+<nav><a href="index.html">Home</a></nav>
+</header>
 
-<textarea id="text"></textarea>
+<main>
 
-<button onclick="wordCounter()">Count Words</button>
+<div class="card">
+<textarea id="text" rows="6"></textarea>
+<button onclick="countWords()">Count</button>
 
-<p>Total Words: <span id="result"></span></p>
+<p>Words: <span id="words">0</span></p>
+<p>Characters: <span id="chars">0</span></p>
+</div>
+
+</main>
+
+<script>
+function countWords(){
+let t=document.getElementById("text").value;
+document.getElementById("words").innerText=t.trim().split(/\s+/).filter(Boolean).length;
+document.getElementById("chars").innerText=t.length;
+}
+</script>
+
+<footer><p>© 2026 @ Pintu Gupta</p></footer>
 
 </body>
-
 </html>
