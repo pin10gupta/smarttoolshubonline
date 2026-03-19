@@ -3,12 +3,12 @@
 
   <!-- Home Page -->
   <url>
-    <loc>https://smarttoolshubonline.netlify.app/</loc>
+    <loc>https://smarttools5online.netlify.app/</loc>
   </url>
 
   <!-- About Page -->
   <url>
-    <loc>https://smarttoolshubonline.netlify.app/about</loc>
+    <loc>https://smarttools5online.netlify.app/about</loc>
   </url>
    <!-- Blog Page -->
   <url>
@@ -17,17 +17,17 @@
 
   <!-- Terms & Conditions Page -->
   <url>
-    <loc>https://smarttoolshubonline.netlify.app/terms-condition</loc>
+    <loc>https://smarttools5online.netlify.app</loc>
   </url>
 
   <!-- Privacy Policy Page -->
   <url>
-    <loc>https://smarttoolshubonline.netlify.app/privacy</loc>
+    <loc>https://smarttools5online.netlify.app</loc>
   </url>
 
   <!-- Contact Page -->
   <url>
-    <loc>https://smarttoolshubonline.netlify.app/contactl</loc>
+    <loc>https://smarttools5online.netlify.app</loc>
   </url>
 
 </urlset>
